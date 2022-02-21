@@ -10,7 +10,7 @@
 (sde:refinement-init-scm-binding)
 
 ;; Restore GUI session parameters:
-(sde:set-window-position 77 17)
+(sde:set-window-position 135 17)
 (sde:set-window-size 840 666)
 (sde:set-window-style "Windows")
 (sde:set-background-color 0 127 178 204 204 204)
