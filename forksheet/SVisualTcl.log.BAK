@@ -1,0 +1,35 @@
+###########################################
+# Sentaurus Visual N-2017.09-SP1.
+# Tcl log file.
+#------------------------------------------
+# Date: Feb 20, 2022. 22:53:59.
+# Version: 27.0.690 (1.690)
+# Mode: Interactive (GUI).
+# Hostname: rice16.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 4.15.0-142-generic.
+###########################################
+
+load_file /home/cmc2374/EE316_Project/forksheet/forksheet_draft1_msh.tdr
+create_plot -dataset forksheet_draft1_msh
+select_plots {Plot_forksheet_draft1_msh}
+#-> Plot_forksheet_draft1_msh
+#-> Plot_forksheet_draft1_msh
+#-> forksheet_draft1_msh
+rotate_plot -plot Plot_forksheet_draft1_msh -x 153.236 -y 120.678 -z -16.0351 -absolute
+#-> 0
+rotate_plot -plot Plot_forksheet_draft1_msh -x -179.937 -y 22.39 -z 52.4353 -absolute
+#-> 0
+zoom_plot -plot Plot_forksheet_draft1_msh -factor 0.953463
+zoom_plot -plot Plot_forksheet_draft1_msh -factor 0.751315
+zoom_plot -plot Plot_forksheet_draft1_msh -factor 0.909091
+zoom_plot -plot Plot_forksheet_draft1_msh -factor 0.953463
+zoom_plot -plot Plot_forksheet_draft1_msh -factor 1.331
+zoom_plot -plot Plot_forksheet_draft1_msh -factor 1.1
+zoom_plot -plot Plot_forksheet_draft1_msh -factor 1.331
+zoom_plot -plot Plot_forksheet_draft1_msh -factor 1.1
+zoom_plot -plot Plot_forksheet_draft1_msh -factor 1.21
+zoom_plot -plot Plot_forksheet_draft1_msh -factor 1.331
+zoom_plot -plot Plot_forksheet_draft1_msh -factor 1.1
+exit 0
+ 

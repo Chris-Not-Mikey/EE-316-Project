@@ -1,0 +1,133 @@
+****************************************************************************
+***                            Sentaurus Mesh                            ***
+***                        Version N-2017.09-SP1                         ***
+***                        (1.690, x86_64, Linux)                        ***
+***                                                                      ***
+***                       Copyright (C) 2005-2017                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Tue Oct 24 15:54:05 PDT 2017 on: tcadprod35
+Running on: rice16
+Hardware type: x86_64
+OS name: Linux
+OS release: 4.15.0-142-generic
+OS version: #146~16.04.1-Ubuntu SMP Tue Apr 13 09:27:15 UTC 2021
+Process ID: 21722
+
+Flags used:
+
+Using total concentrations for net doping
+** Generating 3d grid **
+
+
+===============================  brep quality  ===================================
+minAngle: 0.276209  [near (0.012 -0.045 -0)]
+maxAngle: 175.314  [near (0.037 -0.068 0.028)]
+minDihedralAngle: 90  [near (0.039 -0.009 0.028),(0.039 -0.019 0.028)] at region=region_wall
+nVerts = 188  nTris = 548  nRegs = 28
+bmin: 0 -0.068 0
+bmax: 0.095 0.068 0.028
+min edgeLength: 8.68744e-05  [near (0.0119566 -0.0449981 0)]
+min area: 8.67925e-08  max area: 0.000952  total area: 0.100068 interface area: 0.061292
+volume: 0.00036176
+Conformal? true
+Are all boundaries on bbox? true
+==================================================================================
+Creating binary tree...done.
+Smoothing out binary tree...done.
+Imprinting binary tree on the boundary...done.
+Optimizing boundary nodes...done.
+
+===============================  brep quality  ===================================
+minAngle: 0.236758  [near (0.012 -0.045 -0)]
+maxAngle: 177.274  [near (0.012 -0.045 -0)]
+minDihedralAngle: 90  [near (0.039 -0.009 0.028),(0.039 -0.019 0.028)] at region=region_wall
+nVerts = 170  nTris = 508  nRegs = 28
+bmin: -0 -0.068 -0
+bmax: 0.095 0.068 0.028
+min edgeLength: 0.001  [near (0.0355 -0.066 -0)]
+min area: 5e-07  max area: 0.001904  total area: 0.100068 interface area: 0.061292
+volume: 0.00036176
+Conformal? true
+Are all boundaries on bbox? true
+==================================================================================
+Number of vertices after binary tree generation : 
+  8 (tree) + 170 (boundary)
+
+** Delaunizing the mesh **
+
+Creating delaunizer input...done.
+Fixing diagonals...done.
+Building a generic Delaunay triangulation of the 170 input vertices ...done.
+Setting up planar patches...done.
+Initializing protection spheres...done.
+Flipping edges...done. (178 vertices, 860 elements)
+Solving ridges...done. (665 vertices, 3356 elements)
+Solving faces...done. (665 vertices, 3356 elements)
+Optimizing elements...done. (665 vertices)
+Recovering faces...done. (665 vertices)
+Eliminating slivers...done. (176.994 degrees), maxWeight = 1.75e-06 um^2.
+
+============================Report Non-Delaunay elements ============================
+Found 0 non-Delaunay elements
+Found 0 non-Delaunay boundary faces
+Found 0 non-Delaunay ridges
+==================================================================================
+
+
+The final mesh has: 
+     657 points.
+    1846 elements.
+      28 regions.
+Max. connectivity = 27 located at (0.036;-0.045;-0)
+
+Smallest region: region_gate_n_to_pWFM_lump_1  Total volume: 5.6e-08
+        MeshGen3DNew::getDelaunizerInput:    0.0532s
+                 MeshGen3DNew::delaunize:     0.559s
+
+==============================  tet-grid quality  ================================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    9   5   3   4   3   6   4   3   6  50   2   1   1   2  .    1  .   . 
+---------------------------------------------------------------------------------
+minAngle: 0.832444  maxAngle: 176.994
+nVerts = 657  nTets = 1846  nMats = 28
+max connectivity (tets per node): 27
+bmin: 0 -0.068 0
+bmax: 0.095 0.068 0.028
+min edgeLength: 0.001  [near (0.0355 -0.0675 0.021)]
+min volume: 4.66667e-09  max volume: 7.45733e-06  Total volume: 0.00036176
+bbox  volume: 0.00036176
+Are all boundaries on bbox? true
+=================================================================================
+
+Smallest region: region_gate_n_to_pWFM_lump_1  Total volume: 5.6e-08
+Interpolating data...done.
+done.
+Saving file /home/cmc2374/EE316_Project/forksheet/forksheet_draft1_msh.tdr...done.
+
+===============================  Timer Report===================================
+              Total Mesh Generation Time:     0.697s       100%
+                       Rate of #Vertices:       943
+                          Rate of #Edges:         0
+                          Rate of #Faces:  2.78e+03
+                       Rate of #Elements:  2.65e+03
+
+                              BinaryTree:    0.0259s      3.72%
+                                 Imprint:    0.0492s      7.06%
+                           DelaunayInput:    0.0261s      3.74%
+                           DiagonalFixer:  0.000489s    0.0702%
+                          InsertVertices:    0.0266s      3.82%
+                              Delaunizer:     0.109s      15.7%
+                        SphereProtection:   0.00191s     0.275%
+                        SolveConstraints:     0.355s        51%
+                        OptimizeElements:    0.0201s      2.88%
+                            RecoverFaces:    0.0306s      4.39%
+                           SliverRemover:     0.042s      6.02%
+                            Time Covered:     0.687s      98.6%
+
