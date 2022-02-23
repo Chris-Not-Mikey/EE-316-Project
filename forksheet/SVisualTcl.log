@@ -2,57 +2,45 @@
 # Sentaurus Visual N-2017.09-SP1.
 # Tcl log file.
 #------------------------------------------
-# Date: Feb 20, 2022. 22:55:57.
+# Date: Feb 22, 2022. 09:29:54.
 # Version: 27.0.690 (1.690)
 # Mode: Interactive (GUI).
-# Hostname: rice16.
+# Hostname: rice05.
 # Machine: Linux, x86_64, x86_64.
 # Kernel: 4.15.0-142-generic.
 ###########################################
 
-load_file /home/cmc2374/EE316_Project/forksheet/forksheet_draft1_msh.tdr
-create_plot -dataset forksheet_draft1_msh
-select_plots {Plot_forksheet_draft1_msh}
-#-> Plot_forksheet_draft1_msh
-#-> Plot_forksheet_draft1_msh
-#-> forksheet_draft1_msh
-rotate_plot -plot Plot_forksheet_draft1_msh -x 129.339 -y 122.664 -z 13.5861 -absolute
+load_file /home/cmc2374/EE316_Project/EE-316-Project/forksheet/forksheet_draft5_msh.tdr
+create_plot -dataset forksheet_draft5_msh
+select_plots {Plot_forksheet_draft5_msh}
+#-> Plot_forksheet_draft5_msh
+#-> Plot_forksheet_draft5_msh
+#-> forksheet_draft5_msh
+rotate_plot -plot Plot_forksheet_draft5_msh -x 166.658 -y -179.43 -z -53.6068 -absolute
 #-> 0
-rotate_plot -plot Plot_forksheet_draft1_msh -x -3.04952 -y -159.497 -z 83.1641 -absolute
+zoom_plot -plot Plot_forksheet_draft5_msh -factor 1.04881
+zoom_plot -plot Plot_forksheet_draft5_msh -factor 1.4641
+zoom_plot -plot Plot_forksheet_draft5_msh -factor 0.953463
+rotate_plot -plot Plot_forksheet_draft5_msh -x -153.142 -y -69.4446 -z 4.19171 -absolute
 #-> 0
-rotate_plot -plot Plot_forksheet_draft1_msh -x 23.8974 -y 162.423 -z 82.9649 -absolute
+rotate_plot -plot Plot_forksheet_draft5_msh -x -165.612 -y -12.3429 -z 16.8771 -absolute
 #-> 0
-zoom_plot -plot Plot_forksheet_draft1_msh -factor 0.953463
-zoom_plot -plot Plot_forksheet_draft1_msh -factor 0.751315
-zoom_plot -plot Plot_forksheet_draft1_msh -factor 0.866784
-zoom_plot -plot Plot_forksheet_draft1_msh -factor 0.953463
-zoom_plot -plot Plot_forksheet_draft1_msh -factor 1.04881
-zoom_plot -plot Plot_forksheet_draft1_msh -factor 1.1
-zoom_plot -plot Plot_forksheet_draft1_msh -factor 1.26906
-zoom_plot -plot Plot_forksheet_draft1_msh -factor 1.21
-zoom_plot -plot Plot_forksheet_draft1_msh -factor 1.26906
-zoom_plot -plot Plot_forksheet_draft1_msh -factor 1.1
-rotate_plot -plot Plot_forksheet_draft1_msh -x 40.2005 -y 135.41 -z 81.299 -absolute
+zoom_plot -plot Plot_forksheet_draft5_msh -factor 1.04881
+zoom_plot -plot Plot_forksheet_draft5_msh -factor 1.39596
+zoom_plot -plot Plot_forksheet_draft5_msh -factor 1.26906
+zoom_plot -plot Plot_forksheet_draft5_msh -factor 0.953463
+zoom_plot -plot Plot_forksheet_draft5_msh -factor 0.866784
+zoom_plot -plot Plot_forksheet_draft5_msh -factor 0.716351
+zoom_plot -plot Plot_forksheet_draft5_msh -factor 0.866784
+rotate_plot -plot Plot_forksheet_draft5_msh -x -151.497 -y -54.5705 -z 17.4792 -absolute
 #-> 0
-rotate_plot -plot Plot_forksheet_draft1_msh -x 84.9359 -y 89.858 -z -14.0369 -absolute
-#-> 0
-rotate_plot -plot Plot_forksheet_draft1_msh -x 83.529 -y 86.0882 -z -69.8706 -absolute
-#-> 0
-rotate_plot -plot Plot_forksheet_draft1_msh -x 106.17 -y 69.2778 -z 39.2176 -absolute
-#-> 0
-rotate_plot -plot Plot_forksheet_draft1_msh -x 143.101 -y -7.95264 -z 65.9747 -absolute
-#-> 0
-rotate_plot -plot Plot_forksheet_draft1_msh -x -156.99 -y -29.1943 -z 60.8662 -absolute
-#-> 0
-rotate_plot -plot Plot_forksheet_draft1_msh -x -114.019 -y -68.3642 -z 25.0833 -absolute
-#-> 0
-rotate_plot -plot Plot_forksheet_draft1_msh -x -121.242 -y -134.941 -z -54.4126 -absolute
-#-> 0
-rotate_plot -plot Plot_forksheet_draft1_msh -x 118.535 -y 91.0157 -z 13.7775 -absolute
-#-> 0
-rotate_plot -plot Plot_forksheet_draft1_msh -x 138.155 -y 43.3852 -z 52.9285 -absolute
-#-> 0
-rotate_plot -plot Plot_forksheet_draft1_msh -x 151.623 -y 32.6603 -z 59.0772 -absolute
+zoom_plot -plot Plot_forksheet_draft5_msh -factor 1.21
+zoom_plot -plot Plot_forksheet_draft5_msh -factor 1.1
+zoom_plot -plot Plot_forksheet_draft5_msh -factor 0.683013
+zoom_plot -plot Plot_forksheet_draft5_msh -factor 0.953463
+zoom_plot -plot Plot_forksheet_draft5_msh -factor 0.787986
+zoom_plot -plot Plot_forksheet_draft5_msh -factor 0.909091
+rotate_plot -plot Plot_forksheet_draft5_msh -x -149.681 -y -39.6812 -z 14.6214 -absolute
 #-> 0
 exit 0
  

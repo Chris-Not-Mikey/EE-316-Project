@@ -18,7 +18,7 @@ Hardware type: x86_64
 OS name: Linux
 OS release: 4.15.0-142-generic
 OS version: #146~16.04.1-Ubuntu SMP Tue Apr 13 09:27:15 UTC 2021
-Process ID: 11027
+Process ID: 17370
 
 Flags used:
 
@@ -45,65 +45,63 @@ Imprinting binary tree on the boundary...done.
 Optimizing boundary nodes...done.
 
 ===============================  brep quality  ===================================
-minAngle: 0.286477  [near (0.012 -0.045 0.028)]
-maxAngle: 177.274  [near (0.012 -0.043 0.028)]
-minDihedralAngle: 90  [near (0.056 -0.068 0.056),(0.056 -0.068 0.028)] at region=region_drain_wall
-nVerts = 434  nTris = 1480  nRegs = 73
-bmin: -0 -0.068 -0.028
+minAngle: 0.842524  [near (0.006 -0.04675 0)]
+maxAngle: 174.833  [near (0.006 -0.002 -0)]
+minDihedralAngle: 90  [near (0.056 -0.068 0.056),(0.0534375 -0.068 0.056)] at region=region_drain_wall
+nVerts = 24722  nTris = 54002  nRegs = 73
+bmin: 0 -0.068 -0.028
 bmax: 0.095 0.068 0.056
-min edgeLength: 0.001  [near (0.0585 -0.068 -0)]
-min area: 5e-07  max area: 0.00323  total area: 0.198988 interface area: 0.13434
+min edgeLength: 6.25e-05  [near (0.00596875 -0.051 0)]
+min area: 2.73437e-08  max area: 3.11719e-05  total area: 0.198988 interface area: 0.13434
 volume: 0.00108528
 Conformal? true
 Are all boundaries on bbox? true
 ==================================================================================
 Number of vertices after binary tree generation : 
-  8 (tree) + 434 (boundary)
+  34769 (tree) + 24722 (boundary)
 
 ** Delaunizing the mesh **
 
 Creating delaunizer input...done.
 Fixing diagonals...done.
-Building a generic Delaunay triangulation of the 434 input vertices ...done.
+Building a generic Delaunay triangulation of the 52476 input vertices ...done.
 Setting up planar patches...done.
 Initializing protection spheres...done.
-Flipping edges...done. (442 vertices, 2294 elements)
-Solving ridges...done. (1650 vertices, 8651 elements)
-Solving faces...done. (1650 vertices, 8651 elements)
-Optimizing elements...done. (1650 vertices)
-Recovering faces...done. (1650 vertices)
-Eliminating slivers...done. (174.63 degrees), maxWeight = 3e-06 um^2.
+Flipping edges...done. (52484 vertices, 307732 elements)
+Solving ridges...done. (55855 vertices, 327652 elements)
+Solving faces...done. (57836 vertices, 339424 elements)
+Optimizing elements...done. (57836 vertices)
+Recovering faces...done. (57836 vertices)
+Eliminating slivers...done. (178.397 degrees), maxWeight = 6.25e-08 um^2.
 
 ============================Report Non-Delaunay elements ============================
-Found 2 non-Delaunay elements
-Worst non-Delaunay quality index is 0.997688 on tetrahedron:
- ( (0.039;-0;0.056), (0.038;-0.019;0.028), (0.039;-0.019;0.028), (0.039;-0.02;0.028) )
+Found 0 non-Delaunay elements
 Found 0 non-Delaunay boundary faces
 Found 0 non-Delaunay ridges
 ==================================================================================
 
 
 The final mesh has: 
-    1642 points.
-    8172 elements.
+   57828 points.
+  325418 elements.
       73 regions.
-Max. connectivity = 309 located at (0;-0.027;0.056)
+Max. connectivity = 66 located at (0.0148438;-0.04675;0.02975)
 
 Smallest region: region_gate_n_to_pWFM_lump_1  Total volume: 5.6e-08
-        MeshGen3DNew::getDelaunizerInput:     0.154s
-                 MeshGen3DNew::delaunize:      1.63s
+        MeshGen3DNew::getDelaunizerInput:      46.7s
+                 MeshGen3DNew::delaunize:      49.1s
 
 ==============================  tet-grid quality  ================================
     0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
- %    6   5   2   3   4   8   5   5  10  37   6   3   2   2  .   .   .    1
+ %   .    3   6   5   8  11   8   7   4  35   1   1   3   3  .   .   .   . 
 ---------------------------------------------------------------------------------
-minAngle: 0.730814  maxAngle: 174.63
-nVerts = 1642  nTets = 8172  nMats = 73
-max connectivity (tets per node): 309
+minAngle: 0.840383  maxAngle: 178.397
+nVerts = 57828  nTets = 325418  nMats = 73
+max connectivity (tets per node): 66
 bmin: 0 -0.068 -0.028
 bmax: 0.095 0.068 0.056
-min edgeLength: 0.001  [near (0.05875 -0.0035 0.021)]
-min volume: 4.66667e-09  max volume: 1.77707e-05  Total volume: 0.00108528
+min edgeLength: 6.25e-05  [near (0.00596875 -0.0074375 0.0284375)]
+min volume: 9.11458e-12  max volume: 8.83203e-08  Total volume: 0.00108528
 bbox  volume: 0.00108528
 Are all boundaries on bbox? true
 =================================================================================
@@ -111,25 +109,25 @@ Are all boundaries on bbox? true
 Smallest region: region_gate_n_to_pWFM_lump_1  Total volume: 5.6e-08
 Interpolating data...done.
 done.
-Saving file /home/cmc2374/EE316_Project/EE-316-Project/forksheet/forksheet_draft2_msh.tdr...done.
+Saving file /home/cmc2374/EE316_Project/EE-316-Project/forksheet/forksheet_draft3_msh.tdr...done.
 
 ===============================  Timer Report===================================
-              Total Mesh Generation Time:      2.03s       100%
-                       Rate of #Vertices:       810
+              Total Mesh Generation Time:       124s       100%
+                       Rate of #Vertices:       466
                           Rate of #Edges:         0
-                          Rate of #Faces:  2.56e+03
-                       Rate of #Elements:  4.03e+03
+                          Rate of #Faces:   2.4e+03
+                       Rate of #Elements:  2.62e+03
 
-                              BinaryTree:    0.0659s      3.25%
-                                 Imprint:     0.141s      6.97%
-                           DelaunayInput:    0.0736s      3.63%
-                           DiagonalFixer:  0.000529s    0.0261%
-                          InsertVertices:      0.08s      3.95%
-                              Delaunizer:      0.27s      13.3%
-                        SphereProtection:   0.00499s     0.246%
-                        SolveConstraints:      1.05s      51.7%
-                        OptimizeElements:    0.0869s      4.29%
-                            RecoverFaces:     0.089s      4.39%
-                           SliverRemover:     0.131s      6.44%
-                            Time Covered:      1.99s      98.2%
+                              BinaryTree:      20.5s      16.6%
+                                 Imprint:      6.19s      4.99%
+                           DelaunayInput:      29.7s      23.9%
+                           DiagonalFixer:  0.000509s  0.000411%
+                          InsertVertices:        17s      13.7%
+                              Delaunizer:      15.7s      12.7%
+                        SphereProtection:      1.62s      1.31%
+                        SolveConstraints:      16.6s      13.4%
+                        OptimizeElements:      3.43s      2.76%
+                            RecoverFaces:      4.92s      3.97%
+                           SliverRemover:      6.89s      5.56%
+                            Time Covered:       123s      98.8%
 
