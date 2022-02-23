@@ -3,8 +3,8 @@ For EE 316 @ Stanford
 
 
 Gate
-Source1
-Source2
-Drain1
-Drain2
+Source_1
+Source_2
+Drain_1
+Drain_2
 Body
