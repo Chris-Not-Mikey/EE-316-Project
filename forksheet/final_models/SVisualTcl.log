@@ -1,0 +1,30 @@
+###########################################
+# Sentaurus Visual N-2017.09-SP1.
+# Tcl log file.
+#------------------------------------------
+# Date: Mar 04, 2022. 00:11:42.
+# Version: 27.0.690 (1.690)
+# Mode: Interactive (GUI).
+# Hostname: rice09.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 4.15.0-142-generic.
+###########################################
+
+load_file /home/cmc2374/EE316_Project/EE-316-Project/forksheet/final_models/fsh_airgap_msh.tdr
+create_plot -dataset fsh_airgap_msh
+select_plots {Plot_fsh_airgap_msh}
+#-> Plot_fsh_airgap_msh
+#-> Plot_fsh_airgap_msh
+#-> fsh_airgap_msh
+rotate_plot -plot Plot_fsh_airgap_msh -x 133.874 -y 67.5987 -z 13.4794 -absolute
+#-> 0
+rotate_plot -plot Plot_fsh_airgap_msh -x -176.155 -y 4.50194 -z 55.6671 -absolute
+#-> 0
+zoom_plot -plot Plot_fsh_airgap_msh -factor 1.04881
+zoom_plot -plot Plot_fsh_airgap_msh -factor 1.1
+zoom_plot -plot Plot_fsh_airgap_msh -factor 1.39596
+zoom_plot -plot Plot_fsh_airgap_msh -factor 1.39596
+rotate_plot -plot Plot_fsh_airgap_msh -x -151.153 -y -11.8272 -z 45.7091 -absolute
+#-> 0
+exit 0
+ 
