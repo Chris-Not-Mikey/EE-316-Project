@@ -21,7 +21,7 @@ RefractiveIndex
 
   * refractiveindex() = refractiveindex * (1 + alpha * (T-Tpar))
 	Tpar	= 3.0000e+02	# [K]
-	refractiveindex	= 1.46	# [1]
+	refractiveindex	= 1.65	# [1]
 	alpha	= 2.0000e-04	# [1/K]
 
   * Gain dependence of refractive index in active region:
@@ -41,7 +41,7 @@ ComplexRefractiveIndex
   
   * Base refractive index and extinction coefficient: 
   *    n_0, k_0 
-	n_0	= 1.46	# [1]
+	n_0	= 1.65	# [1]
 	k_0	= 0.0000e+00	# [1]
   
   * Wavelength dependence (real and imag): 
@@ -295,7 +295,7 @@ Bandgap
   * temperature, at which parameters below are defined
   * Chi0 is electron affinity.
 	Chi0	= 0.9	# [eV]
-	Eg0	= 9	# [eV]
+	Eg0	= 4.65	# [eV]
 	alpha	= 0.0000e+00	# [eV K^-1]
 	beta	= 0.0000e+00	# [K]
 	Tpar	= 0.0000e+00	# [K]
