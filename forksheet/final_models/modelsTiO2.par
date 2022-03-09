@@ -21,7 +21,7 @@ RefractiveIndex
 
   * refractiveindex() = refractiveindex * (1 + alpha * (T-Tpar))
 	Tpar	= 3.0000e+02	# [K]
-	refractiveindex	= 1.46	# [1]
+	refractiveindex	= 2.488	# [1]
 	alpha	= 2.0000e-04	# [1/K]
 
   * Gain dependence of refractive index in active region:
@@ -41,7 +41,7 @@ ComplexRefractiveIndex
   
   * Base refractive index and extinction coefficient: 
   *    n_0, k_0 
-	n_0	= 1.46	# [1]
+	n_0	= 2.488	# [1]
 	k_0	= 0.0000e+00	# [1]
   
   * Wavelength dependence (real and imag): 
@@ -295,7 +295,7 @@ Bandgap
   * temperature, at which parameters below are defined
   * Chi0 is electron affinity.
 	Chi0	= 0.9	# [eV]
-	Eg0	= 9	# [eV]
+	Eg0	= 3.05	# [eV]
 	alpha	= 0.0000e+00	# [eV K^-1]
 	beta	= 0.0000e+00	# [K]
 	Tpar	= 0.0000e+00	# [K]
@@ -560,7 +560,7 @@ TableODB
 
 Resistivity
 { * Resist(T) = Resist0 * ( 1 + TempCoef * ( T - 273 ) )
-	Resist0	= 3.0000e+09	# [ohm*cm]
+	Resist0	= 1.0000e-06	# [ohm*cm]
 	TempCoef	= 4.5000e-03	# [1/K]
 }
 
